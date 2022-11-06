@@ -1,0 +1,128 @@
+body {
+	background-color: whitesmoke;
+	color: #db6363;
+	text-align: center;
+}
+.grid {
+	display: grid;
+	grid-template: 100px 8fr 5fr 4fr 5fr 80px /repeat ( 6, 1fr);
+	gap: 20px;
+}
+header {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	display: grid;
+}
+.title {
+	margin: auto;
+	color: #db6363;
+	font-family: Poppins;
+	font-size: 2em;
+	font-weight: 700;
+}
+.banner {
+	padding: 3%;
+	margin-top: -10px;
+	background-color: #ffa69e;
+	color: #faf3dd;
+	font-family: Poppins;
+	font-size: 3em;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	grid-column-start: 1;
+	grid-column-end: 7;
+}
+p, .banner-contents {
+	max-width: 80%;
+	margin: auto;
+	padding: auto;
+	color: #faf3dd;
+}
+img {
+	height: 5em;
+	margin-left: 0px;
+	margin-top: 20px;
+	align-content: center;
+}
+.about {
+	background-color: #faf3dd;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	display: grid;
+}
+.text {
+	color: #2f2d2d;
+	font-family: Poppins;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+.box {
+	background-color: #aed9e0;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	text-align: center;
+	display: grid;
+	color: #5e6472;
+	padding: 5%;
+}
+.address {
+	grid-column: 1 / span 2;
+}
+.hours {
+	grid-column: 3 / span 2;
+}
+.call-us {
+	grid-column: 5 / span 2;
+}
+.icon {
+	height: 50px;
+	padding: 0px;
+	margin: auto;
+	color: #5e6472;
+}
+.testimonial {
+	background-color: whitesmoke;
+	padding: 5%;
+	color: #5e6472;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: italic;
+	letter-spacing: 2.7px;
+	display: grid;
+	border-style: dotted;
+}
+.one {
+	grid-column: 1 / span 3;
+}
+.two {
+	grid-column: 4 / span 3;
+}
+footer {
+	background-color: #faf3dd;
+	color: black;
+	font-family: Poppins;
+	font-size: 16px;
+	letter-spacing: 0.4px;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	display: grid;
+}
+.address p {
+	color: #5e6472;
+}
+.hours p {
+	color: #5e6472;
+}
+.call-us p {
+	color: #5e6472;
+}
+.testimonial p {
+	color: #5e6472;
+	font-weight: bold;
+}
+footer p {
+	color: #2f2d2d;
+}
